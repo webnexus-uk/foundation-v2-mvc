@@ -9,7 +9,7 @@ network.peerMagic = "f9beb4d9";
 network.pubKeyHash = Buffer.from("00", "hex").readUInt8(0);
 network.scriptHash = Buffer.from("05", "hex").readUInt8(0);
 network.wif = Buffer.from("80", "hex").readUInt8(0);
-network.coin = "mvc";
+network.coin = "space";
 
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -51,7 +51,7 @@ describe("Test utility functionality", () => {
       networkCopy
     );
     const script2 = utils.addressToScript(
-      "mvccash:pqkh9ahfj069qv8l6eysyufazpe4fdjq3u4hna323j",
+      "spacecash:pqkh9ahfj069qv8l6eysyufazpe4fdjq3u4hna323j",
       networkCopy
     );
     expect(script1).toStrictEqual(

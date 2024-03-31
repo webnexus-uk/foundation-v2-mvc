@@ -76,15 +76,15 @@ const Loader = function (logger, configMain) {
   this.handleConfigs = function () {
     let config = null;
     const normalizedPath = path.join(__dirname, "../../configs/");
-    if (fs.existsSync(normalizedPath + "mvc.js")) {
-      config = require(normalizedPath + "mvc.js");
+    if (fs.existsSync(normalizedPath + "space.js")) {
+      config = require(normalizedPath + "space.js");
       if (!config.enabled) return;
       if (!_this.checkPoolDaemons(config)) return;
       if (!_this.checkPoolPorts(config)) return;
       if (!_this.checkPoolRecipients(config)) return;
     } else {
       throw new Error(
-        "Unable to find mvc.js file. Read the installation/setup instructions"
+        "Unable to find space.js file. Read the installation/setup instructions"
       );
     }
     return config;

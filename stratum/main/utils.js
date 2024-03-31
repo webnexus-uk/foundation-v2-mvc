@@ -226,7 +226,7 @@ exports.extraNonceCounter = function (size) {
 };
 
 // Calculate Merkle Hash Position
-// https://github.com/p2pool/p2pool/blob/53c438bbada06b9d4a9a465bc13f7694a7a322b7/p2pool/mvc/data.py#L218
+// https://github.com/p2pool/p2pool/blob/53c438bbada06b9d4a9a465bc13f7694a7a322b7/p2pool/space/data.py#L218
 // https://stackoverflow.com/questions/8569113/why-1103515245-is-used-in-rand
 exports.getAuxMerklePosition = function (chain_id, size) {
   return (1103515245 * chain_id + 1103515245 * 12345 + 12345) % size;

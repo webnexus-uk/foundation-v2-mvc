@@ -1,11 +1,11 @@
 # Foundation Stratum (MVC, v2)
 
-[![Codecov Coverage](https://img.shields.io/codecov/c/github/blinkhash/foundation-v2-mvc.svg?style=flat-square)](https://codecov.io/gh/blinkhash/foundation-v2-mvc/)
-[![Foundation CI](https://github.com/blinkhash/foundation-v2-mvc/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/blinkhash/foundation-v2-mvc/actions/workflows/build.yml)
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/blinkhash/foundation-v2-space.svg?style=flat-square)](https://codecov.io/gh/blinkhash/foundation-v2-space/)
+[![Foundation CI](https://github.com/blinkhash/foundation-v2-space/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/blinkhash/foundation-v2-space/actions/workflows/build.yml)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Downloads](https://img.shields.io/npm/dm/foundation-v2-mvc.svg)](https://www.npmjs.com/package/foundation-v2-mvc)
-[![Version](https://img.shields.io/npm/v/foundation-v2-mvc.svg)](https://www.npmjs.com/package/foundation-v2-mvc)
-[![Known Vulnerabilities](https://snyk.io/test/npm/foundation-v2-mvc/badge.svg)](https://snyk.io/test/npm/foundation-v2-mvc)
+[![Downloads](https://img.shields.io/npm/dm/foundation-v2-space.svg)](https://www.npmjs.com/package/foundation-v2-space)
+[![Version](https://img.shields.io/npm/v/foundation-v2-space.svg)](https://www.npmjs.com/package/foundation-v2-space)
+[![Known Vulnerabilities](https://snyk.io/test/npm/foundation-v2-space/badge.svg)](https://snyk.io/test/npm/foundation-v2-space)
 [![Discord](https://img.shields.io/discord/738590795384356904)](https://discord.gg/rNjez6VgNF)
 
 This portal is a high performance stratum server written entirely in Node.js. This server itself was built to be efficient, transparent, and easy to setup, while still maintaining greater scalability than many of the other open-source stratum servers. While this module will allow you to connect and mine directly on the a coin's blockchain, it doesn't include support for an API, payment processor, or share handler. For a complete server that includes these features and allows you to integrate multiple of these modules, see [here](https://github.com/blinkhash/foundation-v2-server).

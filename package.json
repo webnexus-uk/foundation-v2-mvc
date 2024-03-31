@@ -1,17 +1,17 @@
 {
-  "name": "foundation-v2-mvc",
+  "name": "foundation-v2-space",
   "version": "0.0.24",
   "description": "A high performance Stratum pool-server written in Node.js",
   "main": "./exports.js",
   "keywords": [
-    "mvc",
+    "space",
     "stratum",
     "mining",
     "pool"
   ],
-  "homepage": "https://github.com/blinkhash/foundation-v2-mvc",
+  "homepage": "https://github.com/blinkhash/foundation-v2-space",
   "bugs": {
-    "url": "https://github.com/blinkhash/foundation-v2-mvc/issues"
+    "url": "https://github.com/blinkhash/foundation-v2-space/issues"
   },
   "license": "GPL-3.0",
   "author": {
@@ -39,7 +39,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/blinkhash/foundation-v2-mvc.git"
+    "url": "https://github.com/blinkhash/foundation-v2-space.git"
   },
   "dependencies": {
     "async": "^3.2.3",
